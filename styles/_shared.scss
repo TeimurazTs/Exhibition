@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+}
+
+$default-container-max-width: 100rem;
+$default-container-margin: 0 auto;
+
+.container {
+  max-width: $default-container-max-width;
+  margin: $default-container-margin;
+}
+
+$primary-font-family: 'Montserrat', sans-serif;
+
+@mixin primaryFont ($font-size, $font-weight, $color) {
+  font-family: $primary-font-family;
+  color: $color;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+$secondary-font-family: 'Open Sans', sans-serif;
+
+@mixin secondaryFont ($font-size, $font-weight, $color) {
+  font-family: $secondary-font-family;
+  color: $color;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}

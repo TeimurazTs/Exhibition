@@ -1,0 +1,192 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.john-doe-section .john-doe-main {
+  display: flex;
+  align-items: flex-start;
+}
+.john-doe-section .john-doe-main .john-doe-red {
+  background-color: #ed1c24;
+  min-width: 35rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-wrapper {
+  padding: 2.62rem 3.6rem 0 3.4rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-photography {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: black;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.7rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-name {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.01rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-shadows-text {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: -0.08rem;
+  margin-bottom: 1.4rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-text {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 4.6rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-text .john-doe-e-wrapper {
+  width: 4.486rem;
+  height: 4.486rem;
+  background-color: transparent;
+  border: 0.3rem solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-text .john-doe-e-wrapper .john-doe-e {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 3.221rem;
+  font-weight: 700;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-text .john-doe-exhibition {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  letter-spacing: -0.05rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-hr {
+  margin-bottom: 1.58rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-dates {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 130%;
+  margin-bottom: 1.75rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-hr-2 {
+  margin-bottom: 1.9rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-admission {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 5.5rem;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-admission .john-admission {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.john-doe-section .john-doe-main .john-doe-red .icon-box {
+  width: 4.3rem;
+  height: 4.5rem;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.john-doe-section .john-doe-main .john-doe-red .john-doe-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.john-doe-section .colors {
+  display: grid;
+  grid-template-columns: 39.3fr 60.7fr;
+}
+.john-doe-section .colors .bg-color-grey {
+  background-color: #dbdbdb;
+}
+.john-doe-section .colors .arrows-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+}
+.john-doe-section .colors .bg-color-black {
+  background-color: #111111;
+}
+.john-doe-section .colors .bg-color-black .left-arrow {
+  padding: 1.8rem 2rem;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.john-doe-section .colors .bg-color-black .right-arrow {
+  padding: 1.8rem 2rem;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+/*# sourceMappingURL=index.css.map */
