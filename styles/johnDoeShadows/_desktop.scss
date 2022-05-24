@@ -1,131 +1,39 @@
 .john-doe-section {
+  background-color: #EEEEEE;
   .john-doe-main {
     display: flex;
     align-items: flex-start;
 
     .john-doe-red {
       background-color: $primary-bg-color;
-      min-width: 35rem;
-
-      .john-doe-wrapper {
-        padding: 2.62rem 3.6rem 0 3.4rem;
-      }
-
-      .john-doe-photography {
-        @include primaryFont(1rem, 400, #fff);
-        background-color: black;
-        display: inline-block;
-        padding: 0.5rem 1rem;
-        margin-bottom: 0.7rem;
-      }
-
-      .john-doe-name {
-        @include primaryFont(2.2rem, 700, #fff);
-        letter-spacing: -0.01rem;
-      }
-
-      .john-shadows-text {
-        @include primaryFont(2.6rem, 700, #fff);
-        letter-spacing: -0.08rem;
-        margin-bottom: 1.4rem;
-      }
-
-      .john-doe-text {
-        display: flex;
-        gap: 0.8rem;
-        margin-bottom: 4.6rem;
-
-        .john-doe-e-wrapper {
-          width: 4.486rem;
-          height: 4.486rem;
-          background-color: transparent;
-          border: 0.3rem solid #fff;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-
-          .john-doe-e {
-            @include primaryFont(3.221rem, 700, #fff);
-          }
-        }
-
-        .john-doe-exhibition {
-          @include primaryFont(1.8rem, 700, #fff);
-          margin-top: 0.5rem;
-          letter-spacing: -0.05rem;
-        }
-      }
 
       .john-hr {
         margin-bottom: 1.58rem;
-      }
-
-      .john-doe-dates {
-        @include secondaryFont(1.6rem, 300, #fff);
-        line-height: 130%;
-        margin-bottom: 1.75rem;
       }
 
       .john-hr-2 {
         margin-bottom: 1.9rem;
       }
 
-      .john-doe-admission {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        margin-bottom: 5.5rem;
-
-        .john-admission {
-          @include primaryFont(1.8rem, 400, #fff);
-        }
-      }
-
       .icon-box {
         width: 4.3rem;
         height: 4.5rem;
-        border: 1px solid #fff;
+        border: $arrow-border;
         display: flex;
         align-items: center;
         justify-content: center;
-      }
-
-      .john-doe-icons {
-        display: flex;
-        justify-content: flex-end;
       }
     }
   }
 
   .colors {
-    display: grid;
-    grid-template-columns: 39.3fr 60.7fr;
 
     .bg-color-grey {
       background-color: $primary-grey-color;
     }
 
-    .arrows-flex {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-left: 40%;
-    }
-
     .bg-color-black {
       background-color: $primary-black-color;
-
-      .left-arrow {
-        padding: 1.8rem 2rem;
-        border-left: 1px solid #fff;
-        border-right: 1px solid #fff;
-      }
-
-      .right-arrow {
-        padding: 1.8rem 2rem;
-        border-left: 1px solid #fff;
-        border-right: 1px solid #fff;
-      }
     }
   }
 }

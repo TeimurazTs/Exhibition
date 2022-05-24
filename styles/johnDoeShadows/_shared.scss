@@ -1,0 +1,323 @@
+@media (min-width: 1399px) {
+  .john-doe-red {
+    width: 35rem;
+    
+    .john-doe-icons {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .john-doe-wrapper {
+      padding: 2.62rem 3.6rem 0 3.4rem;
+
+      .john-admission {
+        @include primaryFont(1.8rem, 400, #fff);
+      }
+
+      .john-doe-photography {
+        @include primaryFont(1rem, 400, #fff);
+        background-color: black;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.7rem;
+      }
+
+      .john-doe-admission {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 5.5rem;
+      }
+
+      .john-doe-name {
+        @include primaryFont(2.2rem, 700, #fff);
+        letter-spacing: -0.01rem;
+      }
+
+      .john-shadows-text {
+        @include primaryFont(2.6rem, 700, #fff);
+        letter-spacing: -0.08rem;
+        margin-bottom: 1.4rem;
+      }
+
+      .john-doe-dates {
+        @include secondaryFont(1.6rem, 300, #fff);
+        line-height: 130%;
+        margin-bottom: 1.75rem;
+      }
+
+      .john-doe-name {
+        @include primaryFont(2.2rem, 700, #fff);
+        letter-spacing: -0.01rem;
+      }
+    }
+
+    .john-doe-text {
+      display: flex;
+      gap: 0.8rem;
+      margin-bottom: 4.6rem;
+
+      .john-doe-e-wrapper {
+        width: 4.486rem;
+        height: 4.486rem;
+        background-color: transparent;
+        border: 0.3rem solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .john-doe-e {
+          @include primaryFont(3.221rem, 700, #fff);
+        }
+      }
+
+      .john-doe-exhibition {
+        @include primaryFont(1.8rem, 700, #fff);
+        margin-top: 0.5rem;
+        letter-spacing: -0.05rem;
+      }
+    }
+  }
+
+  .colors {
+    display: grid;
+    grid-template-columns: 39.3fr 60.7fr;
+
+    .arrows-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 40%;
+
+      .left-arrow {
+        border-left: $arrow-border;
+        border-right: $arrow-border;
+      }
+
+      .right-arrow {
+        border-left: $arrow-border;
+        border-right: $arrow-border;
+      }
+
+      .left-arrow,
+      .right-arrow {
+        padding: 1.8rem 2rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1399px) {
+  .john-doe-red {
+    width: 345px;
+    margin-left: 4.1rem;
+
+    .john-doe-icons {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .john-doe-wrapper {
+      padding: 2.62rem 3.6rem 0 3.4rem;
+
+      .john-admission {
+        @include primaryFont(1.8rem, 400, #fff);
+      }
+
+      .john-doe-photography {
+        @include primaryFont(1rem, 400, #fff);
+        background-color: black;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.7rem;
+      }
+      .john-doe-admission {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 5.5rem;
+      }
+
+      .john-shadows-text {
+        @include primaryFont(2.6rem, 700, #fff);
+        letter-spacing: -0.08rem;
+        margin-bottom: 1.4rem;
+      }
+
+      .john-doe-dates {
+        @include secondaryFont(1.6rem, 300, #fff);
+        line-height: 130%;
+        margin-bottom: 1.75rem;
+      }
+
+      .john-doe-name {
+        @include primaryFont(2.2rem, 700, #fff);
+        letter-spacing: -0.01rem;
+      }
+    }
+
+    .john-doe-text {
+      display: flex;
+      gap: 0.8rem;
+      margin-bottom: 4.6rem;
+
+      .john-doe-e-wrapper {
+        width: 4.486rem;
+        height: 4.486rem;
+        background-color: transparent;
+        border: 0.3rem solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .john-doe-e {
+          @include primaryFont(3.221rem, 700, #fff);
+        }
+      }
+
+      .john-doe-exhibition {
+        @include primaryFont(1.8rem, 700, #fff);
+        margin-top: 0.5rem;
+        letter-spacing: -0.05rem;
+      }
+
+      .john-doe-dates {
+        @include secondaryFont(1.6rem, 300, #fff);
+        line-height: 130%;
+        margin-bottom: 1.75rem;
+      }
+    }
+  }
+
+  .colors {
+    grid-template-columns: 7fr 93fr;
+
+    .arrows-wrapper {
+      width: 73rem;
+    }
+
+    .arrows-flex {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      // margin-left: 73%;
+
+      .left-arrow {
+        border-left: $arrow-border;
+        border-right: $arrow-border;
+      }
+
+      .right-arrow {
+        border-left: $arrow-border;
+        border-right: $arrow-border;
+      }
+
+      .left-arrow,
+      .right-arrow {
+        padding: 1.8rem 2.05rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .john-doe-main {
+    padding: 0 2.45rem 0 2.45rem;
+    .burger-image {
+      position: absolute;
+      left: 23.2rem;
+      top: 2%;
+    }
+
+    
+    .john-doe-icons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .john-doe-wrapper {
+      min-width:27.1rem;;
+      padding: 2.62rem 3.6rem 0 2.8rem;
+
+      .john-doe-admission {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 0.5rem;
+        margin-bottom: 5.4rem;
+      }
+
+      .john-admission {
+        @include primaryFont(1.6rem, 400, #fff);
+      }
+
+      .john-doe-photography {
+        @include primaryFont(1rem, 400, #fff);
+        background-color: black;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.7rem;
+        margin-left: 0.7rem;
+      }
+
+      .john-doe-name {
+        @include primaryFont(2.2rem, 700, #fff);
+        letter-spacing: -0.01rem;
+        margin-left: 0.8rem;
+      }
+
+      .john-shadows-text {
+        @include primaryFont(2.6rem, 700, #fff);
+        letter-spacing: -0.08rem;
+        margin-bottom: 1.4rem;
+        margin-left: 0.8rem;
+      }
+
+      .john-doe-dates {
+        @include secondaryFont(1.4rem, 300, #fff);
+        line-height: 130%;
+        margin-bottom: 2.35rem;
+        margin-left: 0.8rem;
+      }
+    }
+
+    .john-doe-text {
+      display: flex;
+      gap: 0.8rem;
+      margin-bottom: 5.8rem;
+
+      .john-doe-e-wrapper {
+        width: 3.601rem;
+        height: 3.601rem;
+        background-color: transparent;
+        border: 0.3rem solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .john-doe-e {
+          @include primaryFont(2.585rem, 700, #fff);
+        }
+      }
+
+      .john-doe-exhibition {
+        @include primaryFont(1.445rem, 700, #fff);
+        margin-top: 0.5rem;
+        letter-spacing: -0.05rem;
+      }
+    }
+  }
+
+  .colors {
+    .arrows-flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 6rem;
+    }
+
+    .dissapear {
+      visibility: hidden;
+    }
+  }
+}

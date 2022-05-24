@@ -1,0 +1,48 @@
+@media (min-width: 1399px) {
+  .section-galery {
+    background-color: $primary-black-color;
+    height: 52.4rem;
+
+    .main-galery {
+      max-width: 100rem;
+      display: grid;
+      grid-template-columns: 64fr 36fr;
+      gap: 2.96rem;
+      padding: 5rem 0 6.2rem 0;
+      margin: 0 auto;
+      height: 100%;
+
+      .white-box {
+        background-color: #fff;
+        height: 100%;
+        width: 100%;
+      }
+
+      .boxes {
+        background-color: $primary-black-color;
+        .galery-galery {
+          @include primaryFont(3rem, 700, #fff);
+          margin-bottom: 3.5rem;
+        }
+
+        .boxes-boxes {
+          background-color: $primary-black-color;
+          height: 84%;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 1.53rem;
+
+          .smallbax {
+            height: 10.09rem;
+            max-width: 10.72rem;
+            background-color: #fff;
+          }
+
+          .special-galery-box {
+            box-shadow:inset 0px 0px 0px 10px $primary-bg-color;
+          }
+        }
+      }
+    }
+  }
+}
