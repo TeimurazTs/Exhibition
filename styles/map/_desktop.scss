@@ -1,0 +1,72 @@
+@media (min-width: 1399px) {
+  .section-map {
+    .map-main {
+      position: relative;
+    }
+    .contaniner-maps {
+      max-width: 140rem;
+      margin: 0 auto;
+    }
+
+    .map-red {
+      padding: 6.4rem 6rem 0 5.5rem;
+      max-width: 34.9rem;
+      background-color: $primary-bg-color;
+      opacity: 0.8;
+      position: absolute;
+      top: 0;
+      left: 14.5%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .venue-map {
+        @include primaryFont(3rem, 700, #fff);
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .london-works {
+        @include secondaryFont(1.6rem, 300, #fff);
+        text-align: center;
+        max-width: 23.9rem;
+        padding: 0 3.6rem;
+        line-height: 125%;
+        margin-bottom: 1.2rem;
+      }
+
+      .map-transparent {
+        width: 4.25rem;
+        height: 4.25rem;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-bottom: 1.6rem;
+      }
+
+      .horizontal-map-line {
+        width: 100%;
+        margin-bottom: 2.1rem;
+      }
+
+      .map-directions {
+        @include primaryFont(1.4rem, 400, #fff);
+        margin-bottom: 2.3rem;
+      }
+
+      .map-icons {
+        display: flex;
+        align-items: center;
+
+        .icon-map {
+          border: 1px solid #fff;
+          width: 4.51rem;
+          height: 4.41rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

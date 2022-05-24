@@ -1,0 +1,59 @@
+@media (max-width: 767px) {
+  .exhibition {
+    background-color: black;
+    overflow-x: hidden;
+
+    .main-flex {
+      display: flex;
+      align-items: center;
+      gap: 5rem;
+      justify-content: space-between;
+      max-width: 127rem;
+      padding: 2.3rem 0rem 10rem 2.2rem;
+    }
+
+    .wrap-ex {
+      display: none;
+      // gap: 24rem;
+    }
+
+    .overwiev-galery-exhibiton {
+      @include primaryFont(1.4rem, 400, #fff);
+    }
+
+    .exhibition-text::after {
+      content: "Overview Gallery Venue Hashtag";
+      display: block;
+      @include primaryFont(1.2rem, 400, #fff);
+      position: relative;
+      left: -14.7rem;
+      top: 8.2rem;
+      width: 30rem;
+    }
+
+    .exhibition-text {
+      display: flex;
+      gap: 0.8rem;
+
+      .exhibition-exhibition {
+        @include primaryFont(1.581rem, 700, #fff);
+        margin-top: 0.9rem;
+        letter-spacing: -0.05rem;
+      }
+
+      .exhibition-e-wraper {
+        width: 4.486rem;
+        height: 4.486rem;
+        background-color: transparent;
+        border: 0.3rem solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .john-doe-e {
+          @include primaryFont(3.221rem, 700, #fff);
+        }
+      }
+    }
+  }
+}

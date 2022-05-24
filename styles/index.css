@@ -62,6 +62,8 @@ html {
 
 .john-doe-section {
   background-color: #EEEEEE;
+  max-width: 140rem;
+  margin: 0 auto;
 }
 .john-doe-section .john-doe-main {
   display: flex;
@@ -435,6 +437,7 @@ html {
     max-width: 140rem;
     display: grid;
     grid-template-columns: 14.2fr 24.7fr 60fr;
+    margin: 0 auto;
   }
   .main-overwiev .overwiev-lightgrey {
     background-color: #dbdbdb;
@@ -625,7 +628,9 @@ html {
 @media (min-width: 1399px) {
   .section-galery {
     background-color: #111111;
-    height: 52.4rem;
+    height: 52.2rem;
+    max-width: 140rem;
+    margin: 0 auto;
   }
   .section-galery .main-galery {
     max-width: 100rem;
@@ -727,7 +732,7 @@ html {
 @media (min-width: 767px) and (max-width: 1399px) {
   .section-galery {
     background-color: #111111;
-    height: 52.4rem;
+    height: 57.4rem;
   }
   .section-galery .main-galery {
     max-width: 100rem;
@@ -782,6 +787,388 @@ html {
   }
   .section-galery .main-galery .boxes .boxes-boxes .margin-top {
     margin-top: 2.4rem;
+  }
+}
+@media (min-width: 1399px) {
+  .section-map .map-main {
+    position: relative;
+  }
+  .section-map .contaniner-maps {
+    max-width: 140rem;
+    margin: 0 auto;
+  }
+  .section-map .map-red {
+    padding: 6.4rem 6rem 0 5.5rem;
+    max-width: 34.9rem;
+    background-color: #ed1c24;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 14.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-map .map-red .venue-map {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .section-map .map-red .london-works {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+    max-width: 23.9rem;
+    padding: 0 3.6rem;
+    line-height: 125%;
+    margin-bottom: 1.2rem;
+  }
+  .section-map .map-red .map-transparent {
+    width: 4.25rem;
+    height: 4.25rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-bottom: 1.6rem;
+  }
+  .section-map .map-red .horizontal-map-line {
+    width: 100%;
+    margin-bottom: 2.1rem;
+  }
+  .section-map .map-red .map-directions {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 2.3rem;
+  }
+  .section-map .map-red .map-icons {
+    display: flex;
+    align-items: center;
+  }
+  .section-map .map-red .map-icons .icon-map {
+    border: 1px solid #fff;
+    width: 4.51rem;
+    height: 4.41rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .section-map iframe {
+    height: 40rem !important;
+  }
+  .section-map .map-main {
+    position: relative;
+  }
+  .section-map .map-red {
+    padding: 3.8rem 2rem 0 1.5rem;
+    max-width: 27rem;
+    background-color: #ed1c24;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 7.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-map .map-red .venue-map {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.6rem;
+  }
+  .section-map .map-red .london-works {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+    max-width: 23.9rem;
+    padding: 0 3.6rem;
+    line-height: 125%;
+    margin-bottom: 1.2rem;
+  }
+  .section-map .map-red .map-transparent {
+    width: 4.25rem;
+    height: 4.25rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-bottom: 3rem;
+  }
+  .section-map .map-red .horizontal-map-line {
+    width: 100%;
+    margin-bottom: 2.8rem;
+  }
+  .section-map .map-red .map-directions {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2.3rem;
+  }
+  .section-map .map-red .map-icons {
+    display: flex;
+    align-items: center;
+  }
+  .section-map .map-red .map-icons .icon-map {
+    border: 1px solid #fff;
+    width: 4.51rem;
+    height: 4.41rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 767px) and (max-width: 1399px) {
+  .section-map .map-main {
+    position: relative;
+  }
+  .section-map .map-red {
+    padding: 5.4rem 5rem 0 5.5rem;
+    max-width: 34.9rem;
+    background-color: #ed1c24;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 5.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-map .map-red .venue-map {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3.2rem;
+  }
+  .section-map .map-red .london-works {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+    max-width: 23.9rem;
+    padding: 0 3.6rem;
+    line-height: 125%;
+    margin-bottom: 1.2rem;
+  }
+  .section-map .map-red .map-transparent {
+    width: 4.25rem;
+    height: 4.25rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-bottom: 1.6rem;
+  }
+  .section-map .map-red .horizontal-map-line {
+    width: 100%;
+    margin-bottom: 2.1rem;
+  }
+  .section-map .map-red .map-directions {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 2.3rem;
+  }
+  .section-map .map-red .map-icons {
+    display: flex;
+    align-items: center;
+  }
+  .section-map .map-red .map-icons .icon-map {
+    border: 1px solid #fff;
+    width: 4.51rem;
+    height: 4.41rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1399px) {
+  .exhibition {
+    background-color: black;
+    max-width: 140rem;
+    margin: 0 auto;
+  }
+  .exhibition .main-flex {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-between;
+    max-width: 127rem;
+    padding: 5.6rem 0rem 7rem 23rem;
+  }
+  .exhibition .wrap-ex {
+    display: flex;
+    gap: 24rem;
+  }
+  .exhibition .overwiev-galery-exhibiton {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .exhibition .exhibition-text {
+    display: flex;
+    gap: 0.8rem;
+  }
+  .exhibition .exhibition-text .exhibition-exhibition {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    letter-spacing: -0.05rem;
+  }
+  .exhibition .exhibition-text .exhibition-e-wraper {
+    width: 4.486rem;
+    height: 4.486rem;
+    background-color: transparent;
+    border: 0.3rem solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .exhibition .exhibition-text .exhibition-e-wraper .john-doe-e {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 3.221rem;
+    font-weight: 700;
+  }
+}
+@media (max-width: 767px) {
+  .exhibition {
+    background-color: black;
+    overflow-x: hidden;
+  }
+  .exhibition .main-flex {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-between;
+    max-width: 127rem;
+    padding: 2.3rem 0rem 10rem 2.2rem;
+  }
+  .exhibition .wrap-ex {
+    display: none;
+  }
+  .exhibition .overwiev-galery-exhibiton {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .exhibition .exhibition-text::after {
+    content: "Overview Gallery Venue Hashtag";
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: relative;
+    left: -14.7rem;
+    top: 8.2rem;
+    width: 30rem;
+  }
+  .exhibition .exhibition-text {
+    display: flex;
+    gap: 0.8rem;
+  }
+  .exhibition .exhibition-text .exhibition-exhibition {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.581rem;
+    font-weight: 700;
+    margin-top: 0.9rem;
+    letter-spacing: -0.05rem;
+  }
+  .exhibition .exhibition-text .exhibition-e-wraper {
+    width: 4.486rem;
+    height: 4.486rem;
+    background-color: transparent;
+    border: 0.3rem solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .exhibition .exhibition-text .exhibition-e-wraper .john-doe-e {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 3.221rem;
+    font-weight: 700;
+  }
+}
+@media (min-width: 767px) and (max-width: 1399px) {
+  .exhibition {
+    background-color: black;
+  }
+  .exhibition .main-flex {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: space-between;
+    max-width: 127rem;
+    padding: 3.3rem 4rem 8rem 9rem;
+  }
+  .exhibition .wrap-ex {
+    display: none;
+  }
+  .exhibition .overwiev-galery-exhibiton {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .exhibition .exhibition-text::after {
+    content: "Overview Gallery Venue Hashtag";
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    position: relative;
+    left: -16.7rem;
+    top: 6.2rem;
+  }
+  .exhibition .exhibition-text {
+    display: flex;
+    gap: 0.8rem;
+  }
+  .exhibition .exhibition-text .exhibition-exhibition {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    letter-spacing: -0.05rem;
+  }
+  .exhibition .exhibition-text .exhibition-e-wraper {
+    width: 4.486rem;
+    height: 4.486rem;
+    background-color: transparent;
+    border: 0.3rem solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .exhibition .exhibition-text .exhibition-e-wraper .john-doe-e {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 3.221rem;
+    font-weight: 700;
   }
 }
 
